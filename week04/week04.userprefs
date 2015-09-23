@@ -1,8 +1,8 @@
 ﻿<Properties>
   <MonoDevelop.Ide.Workspace />
-  <MonoDevelop.Ide.Workbench ActiveDocument="..\week04\Assets\Scripts\colorChange.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets\Scripts\colorChange.cs">
     <Files>
-      <File FileName="..\week04\Assets\Scripts\colorChange.cs" Line="6" Column="34" />
+      <File FileName="Assets\Scripts\colorChange.cs" Line="6" Column="34" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
