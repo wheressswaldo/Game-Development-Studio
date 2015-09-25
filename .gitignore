@@ -1,4 +1,14 @@
 week03/Library/
 week03/Temp/
-week04/Library/
-week04/Temp/
+week04/*.sln
+week04/*.userprefs
+week04/*.csproj
+week04/*.pidb
+week04/*.unityproj
+week04/.DS_Store
+week04/Library/FailedAssetImports.txt
+week04/Library/cache/
+week04/Library/previews/
+week04/Library/ScriptAssemblies
+week04/obj
+week04/Temp
