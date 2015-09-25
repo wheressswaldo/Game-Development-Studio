@@ -98,11 +98,11 @@ Material:
       data:
         first:
           name: _SunSize
-        second: .0399999991
+        second: .0260000005
       data:
         first:
           name: _AtmosphereThickness
-        second: 1.87
+        second: .74000001
       data:
         first:
           name: _SunDisk
@@ -159,4 +159,4 @@ Material:
       data:
         first:
           name: _GroundColor
-        second: {r: 1, g: .744421899, b: .470588207, a: 1}
+        second: {r: 1, g: .916024327, b: .735294104, a: 1}
