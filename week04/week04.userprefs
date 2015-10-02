@@ -1,8 +1,10 @@
 ﻿<Properties>
-  <MonoDevelop.Ide.Workspace />
-  <MonoDevelop.Ide.Workbench ActiveDocument="..\..\NYU Game Dev Studio - Class\week05\Assets\RigidbodyFollow.cs">
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets\Scripts\camera.cs">
     <Files>
-      <File FileName="..\..\NYU Game Dev Studio - Class\week05\Assets\RigidbodyFollow.cs" Line="27" Column="1" />
+      <File FileName="Assets\Scripts\camera.cs" Line="26" Column="114" />
+      <File FileName="Assets\Scripts\colorChange.cs" Line="1" Column="1" />
+      <File FileName="Assets\Scripts\motorWorkaround.cs" Line="1" Column="1" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
