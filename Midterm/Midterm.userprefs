@@ -1,8 +1,8 @@
 ﻿<Properties>
   <MonoDevelop.Ide.Workspace />
-  <MonoDevelop.Ide.Workbench ActiveDocument="..\..\NYU Game Dev Studio - Class\week05\Assets\RigidbodyFollow.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets\Scripts\PlayerMovement.cs">
     <Files>
-      <File FileName="..\..\NYU Game Dev Studio - Class\week05\Assets\RigidbodyFollow.cs" Line="27" Column="1" />
+      <File FileName="Assets\Scripts\PlayerMovement.cs" Line="25" Column="3" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
