@@ -22,13 +22,15 @@ public class ExpandMinimap : MonoBehaviour {
 			if (expanded) {
 				text.SetActive(true);
 				expanded = false;
-				legend.transform.Translate(700f, 150f, 0f);
+				// literally hacky solution, I don't know how this canvas space works
+				legend.transform.position = new Vector3(Screen.width/2, Screen.height/2, 0f);
 				minimap.rect = new Rect (0.74f, 0.6f, 0.4f, 0.4f);
 			}
 			else{
 				text.SetActive(false);
 				expanded = true;
-				legend.transform.Translate(-700f, -150f, 0f);
+				// literally hacky solution, I don't know how this canvas space works
+				legend.transform.position = new Vector3(Screen.width/200 - 40f, Screen.height/10, 0f);
 				minimap.rect = new Rect (0f, 0.05f, 1f, 1f);
 			}
 		}
