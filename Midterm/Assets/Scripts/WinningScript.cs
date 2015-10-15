@@ -22,7 +22,7 @@ public class WinningScript : MonoBehaviour {
 				Debug.Log ("test");
 				RestartButton.progress += 1;
 				checkedStation = true;
-				if (RestartButton.progress >= 4) {
+				if (RestartButton.progress >= 2) {
 					winMessage.SetActive (true);
 				} else {
 					GetComponent<Renderer> ().material = badMaterial;

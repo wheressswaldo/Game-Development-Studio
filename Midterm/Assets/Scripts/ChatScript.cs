@@ -6,7 +6,6 @@ public class ChatScript : MonoBehaviour {
 	public Transform player;
 	public GameObject chatBox;
 	public GameObject station;
-	public GameObject minimapMarker;
 
 	private AudioSource source;
 
@@ -22,7 +21,6 @@ public class ChatScript : MonoBehaviour {
 			}
 			station.SetActive (true);
 			chatBox.SetActive (true);
-			minimapMarker.SetActive (false);
 		}
 
 		if (Vector3.Distance (transform.position, player.position) > 3f) {

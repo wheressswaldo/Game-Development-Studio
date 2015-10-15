@@ -3,7 +3,7 @@ using System.Collections;
 
 public class Wander : MonoBehaviour {
 
-	int speed= 1;
+	int speed = 3;
 	Vector3 wayPoint;
 	Vector3 forward;
 

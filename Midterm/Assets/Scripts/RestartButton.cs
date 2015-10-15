@@ -11,8 +11,8 @@ public class RestartButton : MonoBehaviour {
 
 	// Update is called once per frame
 	void Update () {
-		if (Input.GetKeyDown (KeyCode.R)) {
-			Application.LoadLevel ( Application.loadedLevel );
+		if (Input.GetKeyDown (KeyCode.R) && progress >= 4) {
+			Application.LoadLevel ( 0 );
 		}
 	}
 }
