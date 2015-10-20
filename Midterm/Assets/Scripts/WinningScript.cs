@@ -6,10 +6,13 @@ public class WinningScript : MonoBehaviour {
 	public GameObject winMessage;
 	public GameObject closingSign;
 	public GameObject stationMarker;
-	private bool checkedStation;
 	public Material badMaterial;
 
+	private bool checkedStation;
+	private AudioSource source;
+
 	void Start () {
+		source = GetComponent<AudioSource> ();
 		checkedStation = false;
 	}
 
@@ -25,6 +28,9 @@ public class WinningScript : MonoBehaviour {
 				if (RestartButton.progress >= 2) {
 					winMessage.SetActive (true);
 				} else {
+					if (!source.isPlaying){
+						source.Play();
+					}
 					GetComponent<Renderer> ().material = badMaterial;
 					closingSign.SetActive (true);
 					stationMarker.SetActive (false);
