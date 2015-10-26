@@ -7,18 +7,15 @@ public class Pathmaker : MonoBehaviour {
 	public static int counter = 0;
 	public Transform floorPrefab;
 	public Transform pathmakerPrefab;
-
-	public static Color tileColor = new Color (Random.Range (0.0f, 1.0f),
-	                                           Random.Range (0.0f, 1.0f),
-	                                           Random.Range (0.0f, 1.0f));
+	
 
 	void Start () {
 		// Instantiate 2 in the beginning so it's not severely biased against one side
 		// This results in a lot of collisions though... slightly "laggy" looking result
 		// due to the pathmaker repositioning... hmm
 		Instantiate (pathmakerPrefab, transform.position, Quaternion.Euler (transform.eulerAngles.x,
-		                                                                transform.eulerAngles.y + 180f,
-		                                                               transform.eulerAngles.z));
+		                                                                	transform.eulerAngles.y + 180f,
+		                                                              		transform.eulerAngles.z));
 	}
 
 	// Update is called once per frame
@@ -63,9 +60,9 @@ public class Pathmaker : MonoBehaviour {
 				} 
 				// 5% chance to change the color
 				else if (random < 0.60f){
-					tileColor = new Color (Random.Range (0.0f, 1.0f),
-					                       Random.Range (0.0f, 1.0f),
-					                       Random.Range (0.0f, 1.0f));
+					TilePositions.tileColor = new Color (Random.Range (0.0f, 1.0f),
+					                       				 Random.Range (0.0f, 1.0f),
+					                      				 Random.Range (0.0f, 1.0f));
 				}
 				// 5% chance to create another pathmaker at the current location
 				// this always triggers a collision, causing the pathmaker to move forward once 
@@ -73,7 +70,7 @@ public class Pathmaker : MonoBehaviour {
 				else if (random > 0.95f) {
 					Debug.Log ("COPY");
 					Instantiate (pathmakerPrefab, transform.position, transform.rotation);
-				}
+				}	
 
 				// create a tile
 				GameObject tileClone;
