@@ -16,7 +16,7 @@ public class Cat : MonoBehaviour {
 			RaycastHit catRayHitInfo = new RaycastHit();
 			if ( Physics.Raycast ( catRay, out catRayHitInfo, 100f ) ){
 				if ( catRayHitInfo.collider.tag == "Mouse" ) {
-					if (catRayHitInfo.distance < 5f ){
+					if (catRayHitInfo.distance < 4f ){
 						dead.Play ();
 						Destroy(mouse.gameObject);
 					}
